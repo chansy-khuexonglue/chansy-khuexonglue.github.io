@@ -3,23 +3,23 @@ import type { Menu } from '~/types';
 export const useMenu = () => {
   const menu = ref<Menu[]>([
     {
-      name: 'Home',
-      path: '/',
+      name: 'About',
+      path: '#about',
       icon: 'mdi-home',
     },
     {
-      name: 'Home',
-      path: '/',
+      name: 'Tech Stack',
+      path: '#tech-stack',
       icon: 'mdi-home',
     },
     {
-      name: 'Home',
-      path: '/',
+      name: 'Work',
+      path: '#work',
       icon: 'mdi-home',
     },
     {
-      name: 'Home',
-      path: '/',
+      name: 'Contact',
+      path: '#contact',
       icon: 'mdi-home',
     },
   ]);

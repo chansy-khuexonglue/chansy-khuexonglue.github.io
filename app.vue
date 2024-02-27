@@ -1,7 +1,17 @@
 <template>
   <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <html>
+      <body>
+        <NuxtLayout>
+          <NuxtPage />
+        </NuxtLayout>
+      </body>
+    </html>
   </div>
 </template>
+
+<style scoped>
+html {
+  scroll-behavior: smooth;
+}
+</style>
